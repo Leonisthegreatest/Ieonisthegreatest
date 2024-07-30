@@ -1,18 +1,18 @@
 table, th {
     border: 1px solid black;
     border-collapse: collapse;
-    font-size: 500px;
+    font-size: 50px;
 }
 
 h1 {
     background-color: rgba(178, 178, 178, 0);
-    font-size: 500px;
+    font-size: 50px;
 }
   
 p {
-    font-size: 500px;
+    font-size: 50px;
     background-color: gray;
-    color: purple;
+    
 }
  
   
