@@ -16,13 +16,13 @@ p {
 }
 
 
-::backdrop{color:grey}
+
 
 body {
     background-image: url();
   }
   
-  td:hover {background-color:gray;
+  .text_align:hover {background-color:gray;
     color: white;
 
   }
