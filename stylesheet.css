@@ -1,4 +1,4 @@
-table, th {
+table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     font-size: 150%;
@@ -14,8 +14,22 @@ p {
     background-color: gray;
     
 }
- 
+
+
+::backdrop{color:grey}
+
+body {
+    background-image: url();
+  }
   
+  td:hover {background-color:gray;
+    color: white;
+
+  }
  
+.text_align {
+    text-align: center;
+    color:white
+}
   
   
