@@ -7,16 +7,13 @@ table, th {
 h1 {
     background-color: rgba(178, 178, 178, 0);
     font-size: 500px;
-  }
+}
   
-  div {
-    background-color: darkgrey;
-  }
-  
-  p {
+p {
     font-size: 500px;
     background-color: gray;
-  }
+    color: purple;
+}
  
   
  
