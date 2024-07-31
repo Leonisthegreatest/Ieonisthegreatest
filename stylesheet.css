@@ -1,7 +1,9 @@
 table, th, td {
-    border: 1px solid black;
     border-collapse: collapse;
     font-size: 150%;
+    background-color: white;
+        border-radius: 10px;
+        border-color: black;
 }
 
 h1 {
@@ -10,16 +12,18 @@ h1 {
 }
   
 p {
-    font-size: 150%;
-    background-color: gray;
+    font-size: 160%;
+    background-color: rgb(172, 172, 172);
     
 }
 
 
 
 
+
+
 body {
-    background-image: url();
+    background-color: rgb(212, 212, 212);
   }
   
   .text_align:hover {background-color:gray;
@@ -29,7 +33,7 @@ body {
  
 .text_align {
     text-align: center;
-    color:white
+    color:white;
 }
   
   
