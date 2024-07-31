@@ -2,8 +2,9 @@ table, th, td {
     border-collapse: collapse;
     font-size: 150%;
     background-color: white;
-        border-radius: 10px;
-        border-color: black;
+        border-radius: 10;
+        border-style:solid;
+        
 }
 
 h1 {
@@ -34,6 +35,7 @@ body {
 .text_align {
     text-align: center;
     color:white;
+    border-style:solid;
 }
   
   
