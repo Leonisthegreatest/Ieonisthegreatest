@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 
-<audio controls>
-    <source src="assets/panda music.mp3" type="audio/mp3">
-  </audio>
 
-<h1> pandas are cool </h1>
+
+
 
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet"href="stylesheet.css"/>
     </head>
-    <body>
-       
+    <body><audio controls></audio>
+        
+        <source src="assets/panda music.mp3" type="audio/mp3">
+      </audio>
+      <h1>pandas are cool</h1>
         
         <table style="width:100%">
            
@@ -23,19 +24,78 @@
             <iframe width="500" height="315" src="https://www.youtube.com/embed/v_cpPMjE0vU?si=fSlm-krCpI82BzPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <tr><iframe width="500" height="315" src="https://www.youtube.com/embed/D7xWXk5T3-g?si=I99N5U6quNaAQT33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <iframe width="500" height="315" src="https://www.youtube.com/embed/dqT-UlYlg1s?si=G9WUhs6_e5XkfwZj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <td class="text_align">china</td>
-                <td class="text_align">kill, cut open, and eat</td>
-                <td class="text_align">use jetpack</td>
-                <td class="text_align">bamboo</td>
+                <td class="text_align">
+                    <div id="answer1"></div>
+                    <button id="button1">click for answer</button>
+                </td>
+                <td class="text_align">
+                    
+                    <div id="answer2">
+
+                </div>
+                    <button id="button2">click for answer</button>
+                </td>
+                <td class="text_align"><div id="answer3">
+
+                </div>
+                    <button id="button3">click for answer</button>
+                </td>
+                <td class="text_align"><div id="answer4">
+
+                </div>
+                    <button id="button4">click for answer</button></td>
                 <td class="text_align">kill, cut, and eat</td>
         </table>
+        <table>
        <td> <img src="assets/cheese.jpg"></td>
-        <td> <img src="assets/panda.jpg"></td>
+        <td> <img src="assets/fs.jpg"></td>
             <td> <img src="assets/fsdfsdfsdfs.jpg"></td>
                 <td> <img src="assets/dfgfsadgsfgsdfgdfsgdfsg.jpg"></td>
                     <td> <img src="assets/download.jpg"></td>
+        </table>
+                    
+                
+        <script>
+            const answer1 = document.getElementById("answer1")
+            const button1 = document.getElementById("button1")
 
+            button1.addEventListener("click", ()=>{
+                answer1.textContent = "china";
+                button1
+            });
+
+            const answer2 = document.getElementById("answer2")
+            const button2 = document.getElementById("button2")
+
+            button2.addEventListener("click", ()=>{
+                answer2.textContent = "kill, cut and open, eat flesh";
+                button2
+            });
+
+
+            const answer3 = document.getElementById("answer3")
+            const button3 = document.getElementById("button3")
+
+            button3.addEventListener("click", ()=>{
+                answer3.textContent = "use jetpack";
+                button3
+            });
+
+            const answer4 = document.getElementById("answer4")
+            const button4 = document.getElementById("button4")
+
+            button4.addEventListener("click", ()=>{
+                answer4.textContent = "kill, cut and open, eat flesh";
+                button4
+            });
+
+        </script>
 
     </body>
+        
+
+
+
+
         
     </html>

@@ -4,6 +4,7 @@ table, th, td {
     background-color: white;
         border-radius: 10;
         border-style:solid;
+        text-align: center;
         
 }
 
@@ -19,7 +20,10 @@ p {
 }
 
 
+img{
+margin-right: 100%;
 
+}
 
 
 
@@ -27,8 +31,7 @@ body {
     background-color: rgb(212, 212, 212);
   }
   
-  .text_align:hover {background-color:gray;
-    color: white;
+
 
   }
  
