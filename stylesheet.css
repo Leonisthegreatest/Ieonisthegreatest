@@ -8,6 +8,9 @@ table, th, td {
         
 }
 
+
+
+
 h1 {
     background-color: rgba(178, 178, 178, 0);
     font-size: 150%;
@@ -33,11 +36,10 @@ body {
   
 
 
-  }
+  
  
 .text_align {
     text-align: center;
-    color:white;
     border-style:solid;
 }
   
